@@ -14,7 +14,7 @@ import pandas as pd
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input', default = 'select_featur6_500.csv', type = str, help = 'input file')
+parser.add_argument('--input', default = 'select_featur.csv', type = str, help = 'input file')
 opt = parser.parse_args()
 
 
