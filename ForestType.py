@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--input', default='data_expression_median.csv', type = str, help = 'input file')
 parser.add_argument('--cluster', default = 6, type = int, help = 'k-means')
 parser.add_argument('--feature', default = 500, type = int, help = 'the number of importance feature')
-parser.add_argument('--output', default = 'select_feature6.csv', type = str, help = 'output file')
+parser.add_argument('--output', default = 'select_feature.csv', type = str, help = 'output file')
 opt = parser.parse_args()
 
 def kmeans_select(kmeans_labels,y):
