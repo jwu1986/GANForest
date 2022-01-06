@@ -13,6 +13,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--input', default = 'select_feature.csv', type = str, help = 'input file')
+parser.add_argument('--output', default = 'data_label_new.csv', type = str, help = 'output file')
 opt = parser.parse_args()
 
 
@@ -90,7 +91,7 @@ def main():
     headerone[0].insert(0,'Label')
     new_data = pd.concat([older_data_copy, new_data])
     new_data = pd.DataFrame(np.array(new_data).tolist(),columns=headerone)
-    new_data.to_csv('data_label_new.csv', index=False, header=True)
+    new_data.to_csv(opt.output, index=False, header=True)
 
 
 if __name__ == '__main__':
