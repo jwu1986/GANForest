@@ -10,4 +10,4 @@
 4 python RF_Gridsearch.py --input select_feature.csv --quicktrain True --output1 feature_important.csv --output2 fin_result.csv
 
 * Due to upload size limitation, we did not upload mRNA dataset on github, you can download it from the METABRIC database 
-* or computational research platform on Code Ocean.
+* or computational research platform on Code Ocean(DOI is 10.24433/CO.4942687.v1).
