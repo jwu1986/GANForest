@@ -1,7 +1,7 @@
 # GANForest
 
 
-1 python ForestType.py --input data_CNA.csv.gz --cluster 6 --feature 2000 --output select_feature.csv
+1 python ForestType.py --input data_expression_median.csv.gz --cluster 7 --feature 2000 --output select_feature.csv
 
 2 python GAN.py --input select_feature.csv
 
