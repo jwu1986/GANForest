@@ -14,7 +14,7 @@ from sklearn import metrics
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input', default='select_featur6_500.csv', type = str, help = 'input file')
+parser.add_argument('--input', default='data_label_new.csv', type = str, help = 'input file')
 parser.add_argument('--quicktrain', default = True, type = bool, help='whether girdsearch')
 parser.add_argument('--output1', default='feature_important.csv', type = str, help = 'output file')
 parser.add_argument('--output2', default='fin_result.csv', type = str, help = 'output file')
